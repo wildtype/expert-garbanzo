@@ -1,0 +1,7 @@
+Generate searchable index of free textbook from Springer Nature.
+  1. Download free textbok title list: https://www.springernature.com/gp/librarians/news-events/all-news-articles/industry-news-initiatives/free-access-to-textbooks-for-institutions-affected-by-coronaviru/17855960
+  2. Convert the downloaded list to csv
+  3. Execute `generate_index.rb`
+
+Usage:
+  ./generate_index.rb booklist_csv_file_name output_file_name
